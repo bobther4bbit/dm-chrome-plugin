@@ -1,0 +1,12 @@
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-width:250px;
+  overflow-x:hidden;
+  list-style-type:none;
+}
+
+ul {
+	list-style-type: none;
+}

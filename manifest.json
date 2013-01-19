@@ -1,0 +1,27 @@
+{
+  "name": "Dailymotion-trick",
+  "description": "I can't really say what it does... ;)",
+  "version": "0.2",
+  // Experimental permission if for downloads api
+  "permissions": [
+  	"cookies",
+  	"tabs",
+    "webRequest",
+    "http://www.dailymotion.com/*",
+    "http://*.dailymotion.com/*",
+    "http://*.dmcdn.net/static/video/",
+    "http://usp-ec.dmcloud.net/*",
+    "downloads",
+    "experimental"
+  ],
+  "page_action": {
+    "default_icon": "icon.png", // optional
+    "default_title": "Download this page's video",    // optional; shown in tooltip
+    "default_popup": "popup.html"    // optional
+  },
+  "background": {
+    "scripts": ["sample.js"]
+  },
+  "manifest_version": 2
+  //,"content_security_policy": "default-src 'none'; style-src 'self'; script-src 'self'"
+}
